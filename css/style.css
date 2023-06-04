@@ -3,3 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #1E1E1E;
+}
+
+header h1, p {
+    color: #9E9E9E;
+}
+
+.alert-success {
+    color: white;
+    background-color: rgba(84, 253, 84, 0.37);
+    border: .1rem solid rgba(84, 253, 84, 0.37);
+}
+
+.alert-warning {
+    background-color: #fad55d;
+    border: .1rem solid #fad55d ;
+}
