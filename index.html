@@ -17,19 +17,14 @@
     <header class="container text-center pt-4">
         <h1>¿Eres capaz de adivinar el Número Mágico?</h1>
         <p class="fst-italic">(número entre 1 y 100)</p>
-        <button type="button" class="btn btn-primary">Comenzar</button>
+        <button type="button" class="btn btn-primary" id="btnStart">Comenzar</button>
     </header>
     <main class="container mt-5">
         <div class="input-group mb-3">
-            <input type="text" class="form-control" required autocomplete="off" placeholder="Ingrese un número">
-            <button class="btn btn-primary" type="button" id="">Enviar</button>
+            <input type="number" class="form-control" id="numberAdd" max="100" required autocomplete="off" placeholder="Ingrese un número">
+            <button class="btn btn-primary" type="button" id="btnSend">Enviar</button>
         </div>
-        <div class="alert alert-success text-center" role="alert">
-           ¡Felicidades, adivinaste el Número Mágico!
-        </div>
-        <div class="alert alert-warning text-center" role="alert">
-            No adivinaste el Número Mágico
-        </div>
+        <div id="alerts"></div>
     </main>
     <footer class="text-center fixed-bottom pb-4">
         <p class="mb-0">Desarrollado por Franco Javier Nieva</p>
