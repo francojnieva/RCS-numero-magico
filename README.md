@@ -5,4 +5,4 @@ El proyecto consiste en un juego interactivo donde el usuario intenta adivinar u
 
 El proyecto está implementado utilizando HTML, CSS y JavaScript, con el framework Bootstrap para el diseño de la interfaz.
 
-[Adivina el Número Mágico](https://adivina-numero-magico.netlify.app/){target="_blank"} ✨
+[Adivina el Número Mágico](https://adivina-numero-magico.netlify.app/) ✨
