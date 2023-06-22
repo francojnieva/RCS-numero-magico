@@ -4,6 +4,8 @@ const numberAdd = document.getElementById("numberAdd")
 const alerts = document.getElementById("alerts")
 
 btnStart.addEventListener("click", () => {
+    btnStart.classList.add("disabled")
+    btnStart.innerText = "En juego..."
     const numRamdom = Math.floor(Math.random()*100)+1
 
     btnSend.addEventListener("click", () => {
@@ -27,5 +29,3 @@ btnStart.addEventListener("click", () => {
         } 
     })
 })
-
-
